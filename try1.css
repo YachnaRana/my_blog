@@ -1,0 +1,117 @@
+/* --------------------------------------------- */
+/* healthy stuff */
+/* ---------------------------------------------- */
+
+.healthy {
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  overflow: visible;
+  /* border-radius: 10px;
+  box-shadow: 20px 30px 80px 10px rgba(0, 0, 0, 0.2); */
+}
+
+/* HERO CENTER */
+.healthy__center {
+  display: flex;
+  align-item: center;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+}
+
+.healthy__hero {
+  /* flex: 0 1 45%; */
+  flex: 1
+}
+
+.healthy__hero__image {
+  display: block;
+  object-fit: cover;
+  width: 540px;
+  height: 480px;
+
+}
+
+.healthy__hero__content {
+  flex: 0 1 55px;
+  background: white;
+  color: black;
+  font-size: 90%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LEFT PANEL */
+
+.healthy__right,
+.healthy__left {
+  display: flex;
+  align-item: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.healthy__right__top,
+.healthy__left__top {
+  flex: 1;
+}
+
+.healthy__right__bottom,
+.healthy__left__bottom {
+  flex: 1;
+}
+
+.healthy__left__top__image,
+.healthy__left__bottom__image,
+.healthy__right__top__image,
+.healthy__right__bottom__image {
+  display: block;
+  object-fit: cover;
+  width: 250px;
+  height: 225px;
+}
+
+.healthy__left__top__content,
+.healthy__left__bottom__content,
+.healthy__right__top__content,
+.healthy__right__bottom__content {
+  flex: 0 1 50px;
+  background:white;
+  color: black;
+  font-weight: bold;
+  font-size: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RIGHT PANEL */
+.healthy__right {
+  display: flex;
+  align-item: center;
+  flex-direction: column;
+}
+
+.healthy__right__top {
+  flex: 1;
+}
+
+.healthy__right__image {
+  display: block;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.healthy__right__content {
+  flex: 0 1 50px;
+  /* background: linear-gradient(to bottom, #38ada9, #4ca2cd); */
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
