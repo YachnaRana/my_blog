@@ -17,14 +17,13 @@
 <body>
   <header id="header" class="landing">
     <nav>
-      <div class="row ">
+      <div class="row">
         <img src="resources/img/logo.png" alt="My logo" class="logo">
         <ul class="main-nav">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#food">Food</a></li>
+          <li><a href="#food">About Me</a></li>
           <li><a href="travel.html">Travel</a></li>
-          <li><a href="try.html">Career</a></li>
-          <li><a href="#">Feedback</a></li>
+          <li><a href="try.html">Food</a></li>
+          <li><a href="#">Contact Me</a></li>
         </ul>
 
       </div>
@@ -32,15 +31,15 @@
 
     <div class="hero-text-box">
       <h1>Welcome to my Page.<br>Let's explore.</br></h1>
-      <a class="btn btn-full " href="#travel">Travel Diaries</a>
-      <a class="btn btn-ghost" href="food">Show me more</a>
+      <!-- <a class="btn btn-full " href="#travel">About Me</a>
+      <a class="btn btn-ghost" href="food">Show more</a> -->
     </div>
   </header>
 
 
   <section class="section_Career">
     <div class="row">
-      <h1>Profile</h1>
+      <h1>About Me</h1>
       <p class="long-copy">I am a self-taught webdeveloper.</p>
       <hr>
     </div>
@@ -51,7 +50,7 @@
           aute irure dolor in reprehenderit .</p>
       </div>
       <div class="col span-1-of-3 profile-image">
-        <img src="resources/img/myprofile.jpg" alt="" width="246" height="246">
+        <img src="resources/img/linkedinpic.jpg" alt="" width="246" height="246">
       </div>
 
       <div class="col span-1-of-3">
@@ -61,45 +60,100 @@
             <strong>Name:</strong>
           </div>
           <div class="details_child">
-            Yachna Rana
+            Yachna V Rana
           </div>
           <div class="details_child">
-            <strong>Age:</strong>
+            <strong>Hobbies:</strong>
           </div>
           <div class="details_child">
-            23
+            Dance, Photography
           </div>
           <div class="details_child">
             <strong>Location:</strong>
           </div>
           <div class="details_child">
-            USA
+            New Jersey, USA
           </div>
           <div class="details_child">
             <div>
-              <a href="https://www.instagram.com/yachna_rana/" class=" btn btn-full" target="_blank">
-                <i class="ion-social-instagram"></i>
-                <span>Follow</span>
-              </a>
+              <ul class="career-links">
+                <li><a href="https://www.linkedin.com/in/yachnarana/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/yachna.rana.908/" target="_blank"><i class="ion-social-facebook" ></i></a></li>
+                <li><a href="https://www.instagram.com/yachna_rana/?hl=en" target="_blank"><i class="ion-social-instagram"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
+  <section class="section_experience">
     <div class="row">
-      <h2>Experiences</h2>
+      <h2>Experience</h2>
+    </div>
+    <div class="row">
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>Education:</label>
+        </div>
+        <div class="col span-2-of-3">
+          <h4>Bachelor of Engineering</h4>
+          <p>Electronics and Communication<br>July 2014 - May 2018</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>Licences & Certificates:</label>
+        </div>
+        <div class="col span-2-of-3">
+          <ul class="experience_list1">
+            <li class="experience_list1_points">
+              <h4>Siemens Basics of Programmable Logic Controller Certificate</h4>
+              <p>By Siemens<br>Issued May 2016</p>
+            </li>
+            <li class="experience_list1_points">
+              <h4>Computer science 101:The Theory Behind Programming</h4>
+              <p>By Udemy<br>Issued august 2019</br></p>
+            </li>
+            <li class="experience_list1_points">
+              <h4>Complete Python Bootcamp: Go From Zero To Hero</h4>
+              <p>By Udemy<br>Issued Nov 2019</br></p>
+            </li>
+            <li class="experience_list1_points">
+              <h4>Build Responsive Real World Websites With HTML5 and CSS3</h4>
+              <p>By Udemy<br>Issued May 2020</br></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <label>Projects:</label>
+        </div>
+        <div class="col span-2-of-3">
+          <ul class="experience_list2">
+            <li class="experience_list2_points">
+              <h4>Gas Leakage Detector using Arduino</h4>
+              <p><br>Arduino was programmed with gas sensor module to detect LPG in the surrounding atmosphere.</br><br>The gas sensor module compared fluctuations in functional voltage to detect the presence of LPG and send feedback signal to Arduino.</br><br>Receiving the feedback signal from the LPG sensor, Arduino was programmed to notify user of presence of LPG via multiple methods to ensure delivery of message.</br><br>Notifications were sent via LCD display module with highlighted text displaying a warning message, an alert was also triggered on an acoustic buzzer to notify in case the user is not near the LCD display. Arduino GSM module was programmed to send a third notification via SMS over GSM cell service.</br></p>
+            </li>
+            <li class="experience_list2_points">
+              <h4>Object to 3D Mesh using RaspberryPi, FabScanPi, and Meshlab</h4>
+              <p><br>Constructed and configured a turntable setup with a programmable stepper motor, a laser beam, and a camera to capture object facets.</br><br>Calculated arclength traversal for each step of motor to configure FabScanPi with required number of steps to scan object from 360 degrees.</br><br>Object facets were processed into FabScanPi to formulate a shell object with compilation of images captured at each step of the stepper motor.</br><br>Meshlab was used to calculate a 3-dimensional mesh from output provided by FabScanPi to create a 3D-printable object.</br></p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
     </div>
   </section>
 
-
-
-
-  <section class="section_travelcontent">
+  <section class="travelcontent">
     <div class="row">
-      <h2>To Travel is to live</h2>
-      <p class="long-copy">Travel as much as you can, As far as you can, As long as you can, Life is not meant to be lived in one place.</p>
+      <h2>I am a Travel blog</h2>
+      <p class="long-copy">I am Obsessed with exploring the world, meeting new people and getting as lost as possible with my camera. Travel is the best kind of education so go get lost, even if it’s just outside your own doorstep!</p>
     </div>
+
     <div class="row">
       <div class="col span-1-of-4">
         <i class="ion-android-globe icon-big"></i>
@@ -126,12 +180,36 @@
     </div>
   </section>
 
-
   <section class="section-travel">
-    <div class="row">
+    <!-- <div class="row">
       <h2>I am a Travel blog</h2>
       <p class="long-copy">I am Obsessed with exploring the world, meeting new people and getting as lost as possible with my camera. Travel is the best kind of education so go get lost, even if it’s just outside your own doorstep!</p>
     </div>
+
+    <div class="row">
+      <div class="col span-1-of-4">
+        <i class="ion-android-globe icon-big"></i>
+        <h3>India</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col span-1-of-4">
+        <i class="ion-wineglass icon-big"></i>
+        <h3>USA</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col span-1-of-4">
+        <i class="ion-android-plane icon-big"></i>
+        <h3>Canada</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col span-1-of-4">
+        <i class="ion-ios-partlysunny icon-big"></i>
+        <h3>Bermuda</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+
+    </div> -->
 
     <div class="travel-list01" id="travel">
       <h2>Colorful Canada</h2>

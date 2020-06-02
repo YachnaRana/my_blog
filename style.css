@@ -105,9 +105,9 @@ color: #fff;
 
 /* icons */
 .icon-big{
-  font-size: 350%;
-  display: block;
   color: #38ada9;
+  display: block;
+  font-size: 350%;
   margin-bottom: 10px;
 }
 
@@ -230,6 +230,9 @@ h3{
 /* ----------------------------------------------------------------------------- */
 /* profile */
 /* ----------------------------------------------------------------------------- */
+.section_Career{
+  background-color: #f4f4f4;
+}
 .section_Career .long-copy{
   text-align: center;
 }
@@ -239,7 +242,7 @@ h3{
 }
 .section_Career h3{
   color: #38ada9;
-  font-weight: 300;
+  font-weight: 400;
 }
 hr{
   margin: 40px 0px;
@@ -254,7 +257,7 @@ hr{
   width: 100%;
   border-radius: 50%;
   max-width: 246px;
-  border: 7px solid #38ada9;
+  border: 5px solid rgb(189, 189, 189);
   text-align: center;
 }
 .details{
@@ -266,33 +269,95 @@ hr{
   margin-bottom: 7px;
   font-size: 90%;
 }
-
-.details_child:last-child{
-  margin-left: -20px;
-  margin-top: 20px;
+.section_Career li{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.career-links{
+  list-style: none;
 }
 
+.career-links li a:link,
+.career-links li a:visited{
+  text-decoration: none;
+  border: 0;
+  color: #888;
+}
+.section_Career li a:hover,
+.section_Career li a:active{
+  color: #ddd;
+}
 
+.career-links li a:link,
+.career-links li a:visited{
+  font-size: 200%;
+}
+ion-social-facebook,
+ion-social-linkedin,
+ion-social-instagram{
+  transition: color 0.2s;
+}
+
+.ion-social-facebook:hover{
+  color: #3b5998;
+}
+.ion-social-linkedin:hover{
+  color:#404cbd;
+}
+.career-links .ion-social-instagram:hover{
+  color: #C13584;
+}
 /* ----------------------------------------------------------------------------- */
-/* Travelcontent */
+/* experience */
 /* ----------------------------------------------------------------------------- */
-.section_travelcontent .long-copy{
+
+
+.section_experience h2{
   margin-bottom: 50px;
 }
 
+.section_experience label,
+.section_experience h4{
+  color:#555;
+  font-weight: 400;
+}
 
+.experience_list1{
+  list-style: none;
+}
+.experience_list2{
+  list-style: none;
+}
+
+.experience_list1_points{
+  margin-bottom: 25px;
+}
+
+.experience_list2_points{
+  margin-bottom: 25px;
+}
+/* ----------------------------------------------------------------------------- */
+/* Travelcontent */
+/* ----------------------------------------------------------------------------- */
+.travelcontent{
+  background-color: #f4f4f4;
+}
+.travelcontent .long-copy{
+  margin-bottom: 70px;
+
+}
 /* ----------------------------------------------------------------------------- */
 /* Travel */
 /* ----------------------------------------------------------------------------- */
 
 .section-travel .long-copy{
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .section-travel{
   padding: 0;
-
-
+  margin-top: 50px;
 }
 
 .travel-showcase{
@@ -306,7 +371,7 @@ hr{
 }
 .travel-photo{
   width: 100%;
-  margin: 0px;
+  margin: 0;
   overflow: hidden;
   background-color: #000;
 }
@@ -322,6 +387,12 @@ hr{
   transform: scale(1.03);
 }
 
+
+.travel-list01 h2,
+.travel-list02 h2{
+  margin-top: 70px;
+
+}
 /* ----------------------------------------------------------------------------- */
 /* food  */
 /* ----------------------------------------------------------------------------- */
@@ -329,7 +400,7 @@ hr{
   margin-bottom: 70px;
 }
 .section-food{
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 .box img{
   width: 100%;
