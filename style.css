@@ -230,6 +230,7 @@ h3{
 /* ----------------------------------------------------------------------------- */
 /* profile */
 /* ----------------------------------------------------------------------------- */
+
 .section_Career{
   background-color: #f4f4f4;
 }
@@ -249,16 +250,18 @@ hr{
   border-color: #727878;
   opacity: 0.2;
 }
-
+.career_intro{
+  line-height: 1.64;
+  font-size: 90%;
+}
 .profile-image{
   text-align: center;
 }
-.section_Career img{
+.profile-image img{
   width: 100%;
   border-radius: 50%;
   max-width: 246px;
-  border: 5px solid rgb(189, 189, 189);
-  text-align: center;
+  border: 5px solid #bdbdbd;
 }
 .details{
   display: flex;
@@ -283,16 +286,9 @@ hr{
   text-decoration: none;
   border: 0;
   color: #888;
-}
-.section_Career li a:hover,
-.section_Career li a:active{
-  color: #ddd;
-}
-
-.career-links li a:link,
-.career-links li a:visited{
   font-size: 200%;
 }
+
 ion-social-facebook,
 ion-social-linkedin,
 ion-social-instagram{
@@ -312,7 +308,6 @@ ion-social-instagram{
 /* experience */
 /* ----------------------------------------------------------------------------- */
 
-
 .section_experience h2{
   margin-bottom: 50px;
 }
@@ -323,18 +318,18 @@ ion-social-instagram{
   font-weight: 400;
 }
 
-.experience_list1{
+.experience_certi{
   list-style: none;
 }
-.experience_list2{
+.experience_project{
   list-style: none;
 }
 
-.experience_list1_points{
+.experience_certi_points{
   margin-bottom: 25px;
 }
 
-.experience_list2_points{
+.experience_project_points{
   margin-bottom: 25px;
 }
 /* ----------------------------------------------------------------------------- */
@@ -351,7 +346,7 @@ ion-social-instagram{
 /* Travel */
 /* ----------------------------------------------------------------------------- */
 
-.section-travel .long-copy{
+/* .section-travel .long-copy{
   margin-bottom: 70px;
 }
 
@@ -378,8 +373,10 @@ ion-social-instagram{
 .travel-photo img{
   opacity: 0.7;
   width: 100%;
-  height: auto;
-  transform: scale(1.15);
+  height: 400px;
+  object-fit: cover; */
+  /* height: auto; */
+  /* transform: scale(1.15);
   transition: transform 0.5s, opacity 0.5s ;
 }
 .travel-photo img:hover{
@@ -392,6 +389,58 @@ ion-social-instagram{
 .travel-list02 h2{
   margin-top: 70px;
 
+} */
+
+
+/* ----------------------------------------------------------------------------- */
+/* Try */
+/* ----------------------------------------------------------------------------- */
+.container{
+  max-width: 900px;
+  margin: 0 auto 0 auto;
+}
+
+.section-travel .long-copy{
+  margin-bottom: 70px;
+}
+
+.section-travel{
+  padding: 0;
+  margin-top: 50px;
+}
+
+.travel-showcase{
+  width: 100%;
+  list-style: none;
+}
+.travel-showcase li{
+  float: left;
+  width: 50%;
+  display: block;
+}
+.travel-photo{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.travel-photo img{
+  object-fit: cover;
+  opacity: 0.7;
+  width: 100%;
+  height: 400px;
+  /* height: auto; */
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s ;
+}
+.travel-photo img:hover{
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.travel_list h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 /* ----------------------------------------------------------------------------- */
 /* food  */
@@ -406,6 +455,7 @@ ion-social-instagram{
   width: 100%;
   height: auto;
   margin-bottom: 15px;
+  object-fit: cover;
 }
 
 .food-features{

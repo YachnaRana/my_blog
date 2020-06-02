@@ -20,10 +20,10 @@
       <div class="row">
         <img src="resources/img/logo.png" alt="My logo" class="logo">
         <ul class="main-nav">
-          <li><a href="#food">About Me</a></li>
-          <li><a href="travel.html">Travel</a></li>
-          <li><a href="try.html">Food</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a href="#career">About Me</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#form">Contact Me</a></li>
         </ul>
 
       </div>
@@ -37,17 +37,17 @@
   </header>
 
 
-  <section class="section_Career">
+  <section class="section_Career" id="career">
     <div class="row">
       <h1>About Me</h1>
-      <p class="long-copy">I am a self-taught webdeveloper.</p>
+      <p class="long-copy">I am a self-taught web-developer.</p>
       <hr>
     </div>
     <div class="row">
       <div class="col span-1-of-3">
         <h3>About Me</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-          aute irure dolor in reprehenderit .</p>
+        <p class="career_intro">I am an entry level Web-Developer, self-taught and highly motivated. As recent graduate having completed my education in Electronics and Communication Engineering, I immigrated to the United States in February 2019.I
+          learned Real time projects with HTML5, CSS3, Javascript and python programming from various courses online, I am now learning data analytics and visualization with python3 using online courses on a full-time bases.</p>
       </div>
       <div class="col span-1-of-3 profile-image">
         <img src="resources/img/linkedinpic.jpg" alt="" width="246" height="246">
@@ -78,7 +78,7 @@
             <div>
               <ul class="career-links">
                 <li><a href="https://www.linkedin.com/in/yachnarana/" target="_blank"><i class="ion-social-linkedin"></i></a></li>
-                <li><a href="https://www.facebook.com/yachna.rana.908/" target="_blank"><i class="ion-social-facebook" ></i></a></li>
+                <li><a href="https://www.facebook.com/yachna.rana.908/" target="_blank"><i class="ion-social-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/yachna_rana/?hl=en" target="_blank"><i class="ion-social-instagram"></i></a></li>
               </ul>
             </div>
@@ -107,22 +107,22 @@
           <label>Licences & Certificates:</label>
         </div>
         <div class="col span-2-of-3">
-          <ul class="experience_list1">
-            <li class="experience_list1_points">
-              <h4>Siemens Basics of Programmable Logic Controller Certificate</h4>
-              <p>By Siemens<br>Issued May 2016</p>
+          <ul class="experience_certi">
+            <li class="experience_certi_points">
+              <h4>Build Responsive Real World Websites With HTML5 and CSS3</h4>
+              <p>By Udemy<br>Issued May 2020</br></p>
             </li>
-            <li class="experience_list1_points">
-              <h4>Computer science 101:The Theory Behind Programming</h4>
-              <p>By Udemy<br>Issued august 2019</br></p>
-            </li>
-            <li class="experience_list1_points">
+            <li class="experience_certi_points">
               <h4>Complete Python Bootcamp: Go From Zero To Hero</h4>
               <p>By Udemy<br>Issued Nov 2019</br></p>
             </li>
-            <li class="experience_list1_points">
-              <h4>Build Responsive Real World Websites With HTML5 and CSS3</h4>
-              <p>By Udemy<br>Issued May 2020</br></p>
+            <li class="experience_certi_points">
+              <h4>Computer science 101:The Theory Behind Programming</h4>
+              <p>By Udemy<br>Issued august 2019</br></p>
+            </li>
+            <li class="experience_certi_points">
+              <h4>Siemens Basics of Programmable Logic Controller Certificate</h4>
+              <p>By Siemens<br>Issued May 2016</p>
             </li>
           </ul>
         </div>
@@ -132,23 +132,27 @@
           <label>Projects:</label>
         </div>
         <div class="col span-2-of-3">
-          <ul class="experience_list2">
-            <li class="experience_list2_points">
+          <ul class="experience_project">
+            <li class="experience_project_points">
               <h4>Gas Leakage Detector using Arduino</h4>
-              <p><br>Arduino was programmed with gas sensor module to detect LPG in the surrounding atmosphere.</br><br>The gas sensor module compared fluctuations in functional voltage to detect the presence of LPG and send feedback signal to Arduino.</br><br>Receiving the feedback signal from the LPG sensor, Arduino was programmed to notify user of presence of LPG via multiple methods to ensure delivery of message.</br><br>Notifications were sent via LCD display module with highlighted text displaying a warning message, an alert was also triggered on an acoustic buzzer to notify in case the user is not near the LCD display. Arduino GSM module was programmed to send a third notification via SMS over GSM cell service.</br></p>
+              <p><br>Arduino was programmed with gas sensor module to detect LPG in the surrounding atmosphere.</br><br>The gas sensor module compared fluctuations in functional voltage to detect the presence of LPG and send feedback signal to
+                Arduino.</br><br>Receiving the feedback signal from the LPG sensor, Arduino was programmed to notify user of presence of LPG via multiple methods to ensure delivery of message.</br><br>Notifications were sent via LCD display module
+                with highlighted text displaying a warning message, an alert was also triggered on an acoustic buzzer to notify in case the user is not near the LCD display. Arduino GSM module was programmed to send a third notification via SMS over
+                GSM cell service.</br></p>
             </li>
-            <li class="experience_list2_points">
+            <li class="experience_project_points">
               <h4>Object to 3D Mesh using RaspberryPi, FabScanPi, and Meshlab</h4>
-              <p><br>Constructed and configured a turntable setup with a programmable stepper motor, a laser beam, and a camera to capture object facets.</br><br>Calculated arclength traversal for each step of motor to configure FabScanPi with required number of steps to scan object from 360 degrees.</br><br>Object facets were processed into FabScanPi to formulate a shell object with compilation of images captured at each step of the stepper motor.</br><br>Meshlab was used to calculate a 3-dimensional mesh from output provided by FabScanPi to create a 3D-printable object.</br></p>
+              <p><br>Constructed and configured a turntable setup with a programmable stepper motor, a laser beam, and a camera to capture object facets.</br><br>Calculated arclength traversal for each step of motor to configure FabScanPi with
+                required number of steps to scan object from 360 degrees.</br><br>Object facets were processed into FabScanPi to formulate a shell object with compilation of images captured at each step of the stepper motor.</br><br>Meshlab was used
+                to calculate a 3-dimensional mesh from output provided by FabScanPi to create a 3D-printable object.</br></p>
             </li>
           </ul>
-
         </div>
       </div>
     </div>
   </section>
 
-  <section class="travelcontent">
+  <section class="travelcontent" id="travel">
     <div class="row">
       <h2>I am a Travel blog</h2>
       <p class="long-copy">I am Obsessed with exploring the world, meeting new people and getting as lost as possible with my camera. Travel is the best kind of education so go get lost, even if it’s just outside your own doorstep!</p>
@@ -158,102 +162,72 @@
       <div class="col span-1-of-4">
         <i class="ion-android-globe icon-big"></i>
         <h3>India</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>India is famous for its diverse history behind everything, Spicy food, Exploring spirituality,safe to travel and most importantly indian hospitality. </p>
       </div>
       <div class="col span-1-of-4">
         <i class="ion-wineglass icon-big"></i>
         <h3>USA</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>The best part is it has so many beautiful and unique National parks, nice beaches, charming little towns and has most diverse and alive cities in the world.</p>
       </div>
       <div class="col span-1-of-4">
         <i class="ion-android-plane icon-big"></i>
         <h3>Canada</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>One of the best reasons to visit Canada is to watch the beautiful and most powerful Niagara Fall. CN tower in Toronto itself is very touristy.</p>
       </div>
       <div class="col span-1-of-4">
         <i class="ion-ios-partlysunny icon-big"></i>
         <h3>Bermuda</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>World's some of the most beautiful and pink sandy beaches are in Bermuda. Bermuda Aquarium, Dolphin Quest, Gibbs Hill lighthouse, Crystal caves, the list goes on.</p>
       </div>
 
 
     </div>
   </section>
 
-  <section class="section-travel">
-    <!-- <div class="row">
-      <h2>I am a Travel blog</h2>
-      <p class="long-copy">I am Obsessed with exploring the world, meeting new people and getting as lost as possible with my camera. Travel is the best kind of education so go get lost, even if it’s just outside your own doorstep!</p>
-    </div>
-
-    <div class="row">
-      <div class="col span-1-of-4">
-        <i class="ion-android-globe icon-big"></i>
-        <h3>India</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="col span-1-of-4">
-        <i class="ion-wineglass icon-big"></i>
-        <h3>USA</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="col span-1-of-4">
-        <i class="ion-android-plane icon-big"></i>
-        <h3>Canada</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="col span-1-of-4">
-        <i class="ion-ios-partlysunny icon-big"></i>
-        <h3>Bermuda</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-
-
-    </div> -->
-
+  <!-- <section class="section-travel">
     <div class="travel-list01" id="travel">
       <h2>Colorful Canada</h2>
       <ul class="travel-showcase clearfix">
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada1.jpg" alt="">
+            <img src="resources/img/ber1.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada3.jpg" alt="">
+            <img src="resources/img/ber2.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada1.jpg" alt="">
+            <img src="resources/img/ber3.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada3.jpg" alt="">
+            <img src="resources/img/ber4.jpg" alt="">
           </figure>
         </li>
       </ul>
       <ul class="travel-showcase clearfix">
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada3.jpg" alt="">
+            <img src="resources/img/can1.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada1.jpg" alt="">
+            <img src="resources/img/can2.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada3.jpg" alt="">
+            <img src="resources/img/can3.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/canada1.jpg" alt="">
+            <img src="resources/img/can4.jpg" alt="">
           </figure>
         </li>
       </ul>
@@ -264,48 +238,206 @@
       <ul class="travel-showcase clearfix">
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/india1.jpg" alt="">
+            <img src="resources/img/ind1.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/mumbai1.jpg" alt="">
+            <img src="resources/img/ind2.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/udaipur1.jpg" alt="">
+            <img src="resources/img/ind3.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/udaipur4.jpg" alt="">
+            <img src="resources/img/ind4.jpg" alt="">
           </figure>
         </li>
       </ul>
       <ul class="travel-showcase clearfix">
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/udaipur4.jpg" alt="">
+            <img src="resources/img/ind5.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/udaipur1.jpg" alt="">
+            <img src="resources/img/ind6.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/mumbai1.jpg" alt="">
+            <img src="resources/img/ind7.jpg" alt="">
           </figure>
         </li>
         <li>
           <figure class="travel-photo">
-            <img src="resources/img/india1.jpg" alt="">
+            <img src="resources/img/ind8.jpg" alt="">
           </figure>
         </li>
       </ul>
     </div>
+  </section>
+ -->
+
+
+  <section class="section-travel">
+    <div class="container">
+      <h2>Easy Breezy Bermuda</h2>
+    </div>
+    <div class="container">
+      <div class="travel_list">
+        <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ber1.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ber2.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+        <div class="container">
+          <div class="travel_list">
+            <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ber3.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ber4.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-travel">
+    <div class="container">
+      <h2>Colorful Canada</h2>
+    </div>
+    <div class="container">
+      <div class="travel_list">
+        <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/can1.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/can2.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+        <div class="container">
+          <div class="travel_list">
+            <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/can3.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/can4.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-travel">
+    <div class="container">
+      <h2>Namastey India</h2>
+    </div>
+    <div class="container">
+      <div class="travel_list">
+        <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind1.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind2.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+        <div class="container">
+          <div class="travel_list">
+            <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind3.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind4.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section-travel">
+    <div class="container">
+      <h2>Some more from India</h2>
+    </div>
+    <div class="container">
+      <div class="travel_list">
+        <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind5.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind6.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+        <div class="container">
+          <div class="travel_list">
+            <ul class="travel-showcase clearfix">
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind7.jpg" alt="">
+            </figure>
+          </li>
+          <li>
+            <figure class="travel-photo">
+              <img src="resources/img/ind8.jpg" alt="">
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+
   </section>
 
 
@@ -317,45 +449,45 @@
 
     <div class="row" id="food">
       <div class="col span-1-of-3 box">
-        <img src="resources/img/eggs.jpg" alt="" class="food-photo">
+        <img src="resources/img/food1.jpg" alt="" class="food-photo">
+        <h3><strong><em>strawberry Cake</em></strong></h3>
+      </div>
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/food2.jpg" alt="">
         <h3><strong><em>Deviled Eggs</em></strong></h3>
       </div>
       <div class="col span-1-of-3 box">
-        <img src="resources/img/dhokla.jpg" alt="">
-        <h3><strong><em>Dhokla</em></strong></h3>
-      </div>
-      <div class="col span-1-of-3 box">
-        <img src="resources/img/fruitcake.jpg" alt="">
-        <h3><strong><em>strawberry Cake</em></strong></h3>
+        <img src="resources/img/food3.jpg" alt="">
+        <h3><strong><em>Chocolate cake</em></strong></h3>
       </div>
     </div>
     <div class="row">
       <div class="col span-1-of-3 box">
-        <img src="resources/img/cake.jpg" alt="" class="food-photo">
-        <h3><strong><em>Chocolate cake</em></strong></h3>
-      </div>
-      <div class="col span-1-of-3 box">
-        <img src="resources/img/chilly.jpg" alt="">
+        <img src="resources/img/food4.jpg" alt="" class="food-photo">
         <h3><strong><em>Paneer chilly</em></strong></h3>
       </div>
       <div class="col span-1-of-3 box">
-        <img src="resources/img/khandvi.jpg" alt="">
+        <img src="resources/img/food5.jpg" alt="">
         <h3><strong><em>Khandvi</em></strong></h3>
+      </div>
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/food6.jpg" alt="">
+        <h3><strong><em>Rosemery olive fries</em></strong></h3>
       </div>
     </div>
 
     <div class="row">
       <div class="col span-1-of-3 box">
-        <img src="resources/img/paneer.jpg" alt="" class="food-photo">
-        <h3><strong><em>Butter Paneer</em></strong></h3>
+        <img src="resources/img/food7.jpg" alt="" class="food-photo">
+        <h3><strong><em>Pesto Pasta </em></strong></h3>
       </div>
       <div class="col span-1-of-3 box">
-        <img src="resources/img/potato.jpg" alt="">
-        <h3><strong><em>Rosemery olive fries</em></strong></h3>
+        <img src="resources/img/food8.jpg" alt="">
+        <h3><strong><em></em>Butter Paneer></em></strong></h3>
       </div>
       <div class="col span-1-of-3 box">
-        <img src="resources/img/pasta.jpg" alt="">
-        <h3><strong><em>Pesto Pasta</em></strong></h3>
+        <img src="resources/img/food9.jpg" alt="">
+        <h3><strong><em>Dhokla</em></strong></h3>
       </div>
     </div>
   </section>
@@ -364,7 +496,7 @@
 
 
 
-  <section class="section-form">
+  <section class="section-form" id="form">
     <div class="row">
       <h2>I'm happy to hear from you</h2>
     </div>
