@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
    /*sticky navigation*/
-  $('.js--section-travel').waypoint(function(direction) {
+  $('.js--section-career').waypoint(function(direction) {
     if (direction == "down") {
       $('nav').addClass('sticky');
     } else {
@@ -12,11 +12,11 @@ $(document).ready(function() {
   });
 
 /*scroll on buttons*/
-  $('.js--scroll-to-travel').click(function() {
-    $('html, body').animate({scrollTop: $('.js--section-travel').offset().top}, 1000);
+  $('.js--scroll-to-plans').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
   });
-  $('.js--scroll-to-food').click(function() {
-    $('html, body').animate({scrollTop: $('.js--section-food').offset().top}, 1000);
+  $('.js--scroll-to-start').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
   });
 
 
