@@ -12,11 +12,20 @@ $(document).ready(function() {
   });
 
 /*scroll on buttons*/
-  $('.js--scroll-to-plans').click(function() {
-    $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
+  $('.js--scroll-to-career').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-career').offset().top}, 3000);
   });
-  $('.js--scroll-to-start').click(function() {
-    $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+  $('.js--scroll-to-experience').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-experience').offset().top}, 3000);
+  });
+  $('.js--scroll-to-travel').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-travel').offset().top}, 3000);
+  });
+  $('.js--scroll-to-food').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-food').offset().top}, 3000);
+  });
+  $('.js--scroll-to-form').click(function() {
+    $('html, body').animate({scrollTop: $('.js--section-form').offset().top}, 3000);
   });
 
 
@@ -38,25 +47,49 @@ $(document).ready(function() {
 
   /*animation on scroll*/
   $('.js--wp-1').waypoint(function (direction) {
-    $('.js--wp-1').addClass('animated fadeIn');
+    $('.js--wp-1').addClass('animated rubberBand');
   }, {
     offset: '50%'
   });
 
   $('.js--wp-2').waypoint(function (direction) {
-    $('.js--wp-2').addClass('animated fadeInUp');
+    $('.js--wp-2').addClass('animated pulse');
   }, {
     offset: '50%'
   });
 
   $('.js--wp-3').waypoint(function (direction) {
-    $('.js--wp-3').addClass('animated fadeIn');
+    $('.js--wp-3').addClass('animated flipInY');
   }, {
     offset: '50%'
   });
 
   $('.js--wp-4').waypoint(function (direction) {
-    $('.js--wp-4').addClass('animated pulse');
+    $('.js--wp-4').addClass('animated bounce');
+  }, {
+    offset: '50%'
+  });
+
+  $('.js--wp-5').waypoint(function (direction) {
+    $('.js--wp-5').addClass('animated bounceInDown');
+  }, {
+    offset: '50%'
+  });
+
+  $('.js--wp-6').waypoint(function (direction) {
+    $('.js--wp-6').addClass('animated bounceInRight');
+  }, {
+    offset: '50%'
+  });
+
+  $('.js--wp-7').waypoint(function (direction) {
+    $('.js--wp-7').addClass('animated bounceInLeft');
+  }, {
+    offset: '50%'
+  });
+
+  $('.js--wp-8').waypoint(function (direction) {
+    $('.js--wp-8').addClass('animated bounceInUp');
   }, {
     offset: '50%'
   });
