@@ -136,7 +136,6 @@ h1,h2,h3{
 
 h1{
   margin-top: 0;
-  margin-bottom: 20px;
   color: #fff;
   font-size: 240%;
   word-spacing: 4px;
@@ -197,10 +196,10 @@ h3{
   color: #fff;
 }
 .logo{
-  height: 45px;
+  height: 100px;
   width: auto;
   float: left;
-  margin-top: 47px;
+  margin-top: 30px;
 }
 
 .logo-black{
@@ -259,17 +258,17 @@ h3{
 /* profile */
 /* ----------------------------------------------------------------------------- */
 
-.section_Career{
+.section_career{
   background-color: #f4f4f4;
 }
-.section_Career .long-copy{
+.section_career .long-copy{
   text-align: center;
 }
-.section_Career h1{
+.section_career h1{
   text-align: center;
   color: #38ada9;
 }
-.section_Career h3{
+.section_career h3{
   color: #38ada9;
   font-weight: 400;
 }
@@ -300,14 +299,19 @@ hr{
   margin-bottom: 7px;
   font-size: 90%;
 }
-.section_Career li{
+.section_career li{
   display: inline-block;
   margin-right: 20px;
   margin-top: 10px;
 }
+
+.section_career li:last-child{
+  margin-right: 0;
+}
 .career-links{
   list-style: none;
 }
+
 
 .career-links li a:link,
 .career-links li a:visited{
@@ -370,58 +374,10 @@ ion-social-instagram{
   margin-bottom: 70px;
 
 }
+
+
 /* ----------------------------------------------------------------------------- */
 /* Travel */
-/* ----------------------------------------------------------------------------- */
-
-/* .section-travel .long-copy{
-  margin-bottom: 70px;
-}
-
-.section-travel{
-  padding: 0;
-  margin-top: 50px;
-}
-
-.travel-showcase{
-  width: 100%;
-  list-style: none;
-}
-.travel-showcase li{
-  float: left;
-  width: 25%;
-  display: block;
-}
-.travel-photo{
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  background-color: #000;
-}
-.travel-photo img{
-  opacity: 0.7;
-  width: 100%;
-  height: 400px;
-  object-fit: cover; */
-  /* height: auto; */
-  /* transform: scale(1.15);
-  transition: transform 0.5s, opacity 0.5s ;
-}
-.travel-photo img:hover{
-  opacity: 1;
-  transform: scale(1.03);
-}
-
-
-.travel-list01 h2,
-.travel-list02 h2{
-  margin-top: 70px;
-
-} */
-
-
-/* ----------------------------------------------------------------------------- */
-/* Try */
 /* ----------------------------------------------------------------------------- */
 .container{
   max-width: 900px;

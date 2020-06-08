@@ -1,16 +1,105 @@
 /*big tablet to 1200px:width less than 1140px */
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
 
+  .row {
+    padding: 0 2%;
+  }
 }
+
 /*small tablet to big tablet:width 768px to 1023px  */
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1023px) {
+  body {
+    font-size: 18px;
+  }
 
+  section {
+    padding: 60px 0;
+  }
+
+  .row {
+    padding: 0 3%;
+  }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .logo {
+    height: 75px;
+    margin-top: 30px;
+  }
+
+  .main-nav {
+    margin-top: 55px;
+  }
+
+  .container {
+    max-width: 500px;
+  }
+
+  .travelcontent .long-copy {
+    margin-bottom: 50px;
+  }
+
+  .travel-photo img {
+    height: 250px;
+  }
+
+  .section-food .long-copy {
+    margin-bottom: 50px;
+  }
+
+  .footer-nav li {
+    margin-right: 10px;
+  }
 }
+
 /*small phones to small tablet:width 481px to 767px */
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px) {
+  h1 {
+    font-size: 300%;
+  }
+  .section_career .col{
+    width: 100%;
+    text-align: center;
+  }
+  .travelcontent .long-copy{
+    width: 100%;
+    margin-left: 0%;
+  }
+  /* .travelcontent .row{  } */
+  .travelcontent .col{
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
 
+  .section-food .row{ padding: 0%; }
+  .section-food .box{ padding: 0%; }
+  .section-food .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+    text-align: center;
+  }
+
+  .logo {
+    height: 50px;
+    margin-top: 30px;
+  }
+
+  .main-nav {
+    margin-top: 45px;
+  }
+
+  .box img{
+    max-width: 100%;
+    max-height: 200px;
+  }
 }
+
 /* small phones:width 0 to 480px */
-@media only screen and (max-width:480px){
-
-}
+@media only screen and (max-width:480px) {}
