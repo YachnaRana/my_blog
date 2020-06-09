@@ -204,7 +204,7 @@ h3{
 
 .logo-black{
   display: none;
-  height: 25px;
+  height: 50px;
   width: auto;
   float: left;
   margin: 5px 0;
@@ -233,7 +233,19 @@ h3{
 .main-nav li a:active{
   border-bottom: 2px solid #38ada9;
 }
+/* mobile navi */
+.mobile-nav-icon{
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
 
+.mobile-nav-icon i{
+  font-size: 200%;
+  color: #fff;
+}
+/* sticky navi */
 .sticky{
   position: fixed;
   top: 0;
@@ -430,6 +442,9 @@ ion-social-instagram{
 /* ----------------------------------------------------------------------------- */
 /* food  */
 /* ----------------------------------------------------------------------------- */
+.section-food{
+  background-color:  #f4f4f4;
+}
 .box img{
   width: 100%;
   max-width: 300px;
@@ -458,9 +473,9 @@ ion-social-instagram{
 /* ----------------------------------------------------------------------------- */
 /* FORM*/
 /* ----------------------------------------------------------------------------- */
-.section-form{
+/* .section-form{
   background-color: #f4f4f4;
-}
+} */
 .contact-form{
   width: 60%;
   margin: 0 auto;

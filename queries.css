@@ -61,13 +61,49 @@
 
 /*small phones to small tablet:width 481px to 767px */
 @media only screen and (max-width:767px) {
+  body{ font-size: 16px; }
   h1 {
     font-size: 300%;
   }
+  h2{ font-size: 150%; }
+
+  .logo {
+    height: 20px;
+    margin-top: 30px;
+  }
+  .main-nav{ display: none; }
+  .mobile-nav-icon{
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .main-nav{
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+  }
+  .main-nav li{
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited{ padding: 10px 0; }
+  .sticky .mobile-nav-icon i{color: #555; }
+  .sticky .mobile-nav-icon i{margin-top: 10px; }
+  .sticky .main-nav{ margin-top: 10px; }
+
+
   .section_career .col{
     width: 100%;
     text-align: center;
   }
+
   .travelcontent .long-copy{
     width: 100%;
     margin-left: 0%;
@@ -86,10 +122,6 @@
     text-align: center;
   }
 
-  .logo {
-    height: 50px;
-    margin-top: 30px;
-  }
 
   .main-nav {
     margin-top: 45px;
@@ -102,4 +134,6 @@
 }
 
 /* small phones:width 0 to 480px */
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width:480px) {
+
+}
