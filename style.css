@@ -352,12 +352,15 @@ ion-social-instagram{
 /* experience */
 /* ----------------------------------------------------------------------------- */
 
-.section_experience h2{
+/* .section-experience h2{
   margin-bottom: 50px;
-}
+} */
 
-.section_experience label,
-.section_experience h4{
+.section-experience h3{
+  color:#38ada9;
+  font-weight: 400;
+}
+.section-experience h4{
   color:#555;
   font-weight: 400;
 }
